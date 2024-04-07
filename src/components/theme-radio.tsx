@@ -6,9 +6,10 @@ export default function ThemeRadio({
   onRadioChange,
 }: Readonly<{
   value: string;
-  currentTheme: string;
+  currentTheme: any;
   onRadioChange: ChangeEventHandler;
 }>) {
+  console.log(currentTheme);
   return (
     <input
       type="radio"

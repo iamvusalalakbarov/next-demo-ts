@@ -7,7 +7,7 @@ export default function Label({
 }: Readonly<{
   children: React.ReactNode;
   value: string;
-  currentTheme: string;
+  currentTheme: any;
 }>) {
   return (
     <label

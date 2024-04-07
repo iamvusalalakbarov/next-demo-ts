@@ -23,7 +23,7 @@ export default function LanguageSelect() {
       value={currentLocale}
       onChange={changeLanguage}
       placeholder="deneme"
-      className="w-52 h-10"
+      className="w-52 h-10 dark:text-white dark:bg-stone-700"
       sx={{
         "& .MuiOutlinedInput-notchedOutline, &:hover .MuiOutlinedInput-notchedOutline, &.Mui-focused > .MuiOutlinedInput-notchedOutline":
           {
